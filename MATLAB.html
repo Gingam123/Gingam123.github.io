@@ -15,6 +15,14 @@
 	display: none;
 }
 
+@media (prefers-color-scheme:dark) {
+  body {
+    background-color: rgb(41,44,49);
+    color: rgb(255, 255, 255);
+    
+  }
+}
+
 /* From extension bierner.markdown-checkbox */
 .contains-task-list {
     padding-left: 0;
@@ -33,10 +41,35 @@
 .contains-task-list .contains-task-list {
     padding-left: 20px;
 } 
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(163, 255, 194);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 122);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 </style>
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link rel="stylesheet" target="_blank"  href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" target="_blank"  href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
             body {
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
@@ -62,8 +95,18 @@
 <p>MATLAB, abreviación de <em>maitrx laboratory</em>, es un lenguaje de programación y entorno de computación.</p>
 <p><a target="_blank"  href="https://la.mathworks.com/help/matlab/matlab_prog/">Guia de MathWorks</a></p>
 <p><code>\n</code> representa que lo que le sigue se debe escribir en una línea nueva</p>
-<p><img src=".\matlabgui.png" alt="GUI">
-Todo lo que nos interesa está en <em><code>Live Editor</code></em>.</p>
+<p><img src=".\matlabgui.png" alt="GUI" height="400" width="700">
+<h3 style="font-weight: lighter;">Todo lo que nos interesa está en <em><code>Live Editor</code></em>.</p></body></h3>
+<ul class="contains-task-list">
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Comandos</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Aritmética</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Funciones</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Arreglos</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Lógica</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Estructuras de control</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Importación de datos</li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> Gráficas</li>
+</ul>
 <h3 id="comandos">Comandos</h3>
 <table>
 <thead>
@@ -332,7 +375,7 @@ Todo lo que nos interesa está en <em><code>Live Editor</code></em>.</p>
 <td>• <code>plot([x], “LineWidth”, n)</code> para cambiar el ancho de la fila. <a target="_blank"  href="https://la.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html">Ver lista de gráficas</a></td>
 </tr>
 <tr>
-<td>• <a target="_blank"  href="https://la.mathworks.com/products/matlab/plot-gallery.html#" target="_blank" >https://la.mathworks.com/products/matlab/plot-gallery.html#</a></td>
+<td>• <a target="_blank"  href="https://la.mathworks.com/products/matlab/plot-gallery.html#">https://la.mathworks.com/products/matlab/plot-gallery.html#</a></td>
 </tr>
 <tr>
 <td>• <code>title(”Título”)</code> se añade en cadena. Se puede usar valores de variables aquí también</td>
