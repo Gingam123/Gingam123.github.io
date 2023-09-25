@@ -1,0 +1,40 @@
+MARKDOWN MODO OSCURO
+
+@media (prefers-color-scheme:dark) {
+  body {
+    background-color: rgb(41,44,49);
+    color: rgb(255, 255, 255);
+    
+  }
+}
+
+FORMATO DE LAS URLS
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(163, 255, 194);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 122);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+  REEMPLAZAR href por
+
+  target="_blank"  href
