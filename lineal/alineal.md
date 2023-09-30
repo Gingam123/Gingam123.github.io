@@ -24,7 +24,11 @@
     - [Espacio fila, espacio columna y espacio nulo](#espacio-fila-espacio-columna-y-espacio-nulo)
     - [Invarianza, Rango y Nulidad](#invarianza-rango-y-nulidad)
     - [SEL y Espacios fundamentales](#sel-y-espacios-fundamentales)
+  - [Vectores y valores propios](#vectores-y-valores-propios)
 
+
+\
+- [ ] Multiplicidad alegbraica
 
 ## Construir matrices, operar e identificar diferentes tipos
 Una matriz ***A*** es un arreglo de *m $\times$ n* números reales distribuidos en *m* filas y *n* columnas. A cada elemento dentro de la matriz se le conoce como entrada.
@@ -194,3 +198,20 @@ Transpuesta
 ### Espacio fila, espacio columna y espacio nulo
 ### Invarianza, Rango y Nulidad
 ### SEL y Espacios fundamentales
+
+## Vectores y valores propios
+Un vector $x \in \reals^{n}, x \not ={0}$, es un vector propio de A si
+
+$$
+Ax= \lambda x
+$$
+
+para algún $\lambda \in \reals$. Ademàs, el número real $\lambda$ es llamado *valor propio** de **A** asociado a **x**.
+
+$$
+Ax= \lambda x \\
+Ax- \lambda I_{x}=0 \\
+Bx-0(A-\lambda I_{x})x=0
+$$
+
+Si la determinante de $(A-\lambda I_{x})$ es 0, entonces tiene solución no nula.
